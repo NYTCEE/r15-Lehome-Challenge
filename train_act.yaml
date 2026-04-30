@@ -1,0 +1,39 @@
+dataset:
+  repo_id: repo_act
+  root: Datasets/four_types_merged_combined
+
+policy:
+  type: act
+  device: cuda
+  push_to_hub: false
+  
+  input_features:
+    observation.state:
+      type: STATE
+      shape: [12]
+    observation.images.top_rgb:
+      type: VISUAL
+      shape: [3, 480, 640]
+    observation.images.left_rgb:
+      type: VISUAL
+      shape: [3, 480, 640]
+    observation.images.right_rgb:
+      type: VISUAL
+      shape: [3, 480, 640]
+    observation.top_depth:
+      type: STATE
+      shape: [1, 480, 640]
+  
+  output_features:
+    action:
+      type: ACTION
+      shape: [12]
+
+output_dir: outputs/train/act_top_long_depth
+batch_size: 32
+steps: 60000
+save_freq: 1000
+log_freq: 500
+
+wandb:
+  enable: false
