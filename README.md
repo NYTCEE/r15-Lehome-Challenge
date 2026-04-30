@@ -7,7 +7,7 @@ The model is trained using SmolVLA and ACT with the following training configura
 
 batch_size: 32 | steps: 60000 | save_freq: 1000 | log_freq: 500
 
-Training is conducted on an NVIDIA GeForce RTX 5090 GPU.
+Training is conducted on an NVIDIA GeForce RTX 5090 GPU
 
 ### Detailed Instructions
 
