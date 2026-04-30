@@ -1,3 +1,7 @@
+
+Put ``dataset_replay_randomization.py`` under ``lehome-challenge/scripts``
+
+
 ### Detailed Instructions
 
 https://hackmd.io/nXxix1F5Ta-QPMGBZ0Fqjw
