@@ -1,10 +1,13 @@
 
-
-
-
 Put ``dataset_replay_randomization.py`` under ``lehome-challenge/scripts``
 
+The dataset used in this repo combines an official four_types dataset with depth information and additional self-generated datasets featuring variations in clothing colors and table colors.
 
+The model is trained using SmolVLA and ACT with the following training configuration:
+
+batch_size: 32 | steps: 60000 | save_freq: 1000 | log_freq: 500
+
+Training is conducted on an NVIDIA GeForce RTX 5090 GPU.
 
 ### Detailed Instructions
 
