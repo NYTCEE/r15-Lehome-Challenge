@@ -9,3 +9,9 @@ https://huggingface.co/nytcee/r15_4s_lehome_policy/tree/main
 
 ### Datasets
 https://huggingface.co/IntelligentDecisionLab
+
+---
+### References
+https://github.com/lehome-official/lehome-challenge
+
+https://lehome-challenge.com/
